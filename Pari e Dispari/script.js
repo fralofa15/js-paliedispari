@@ -30,14 +30,12 @@ let numeroComputer = numeroRandom();
 console.log("il numero del computer è " + numeroComputer);
 
 //Somma dei numeri
-let numeroFinale = sommaNumeri(numeroComputer, numeroScelto);
+let pariDispari = verificaPariDispari(numeroComputer, numeroScelto);
 
-console.log("la somma dei due numeri è " + numeroFinale);
+console.log("la somma dei due numeri è " + pariDispari);
 
 //Controllo vincitore
-if(numeroFinale === "pari" && scelta === "pari") {
-    console.log("Hai vinto");
-} else if ( numeroFinale === "dispari" && scelta === "dispari") {
+if(pariDispari === scelta) {
     console.log("Hai vinto");
 } else {
     console.log("Ha vinto il computer");
