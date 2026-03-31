@@ -33,3 +33,12 @@ console.log("il numero del computer è " + numeroComputer);
 let numeroFinale = sommaNumeri(numeroComputer, numeroScelto);
 
 console.log("la somma dei due numeri è " + numeroFinale);
+
+//Controllo vincitore
+if(numeroFinale === "pari" && scelta === "pari") {
+    console.log("Hai vinto");
+} else if ( numeroFinale === "dispari" && scelta === "dispari") {
+    console.log("Hai vinto");
+} else {
+    console.log("Ha vinto il computer");
+}
