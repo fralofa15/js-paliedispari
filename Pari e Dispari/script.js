@@ -4,3 +4,20 @@
 //Sommiamo i due numeri
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 //Dichiariamo chi ha vinto.
+
+//Scelta dell'utente 
+let scelta = prompt("Scegli pari o dispari").toLocaleLowerCase();
+
+//Controllo della scelta
+if(scelta === "pari") {
+    scelta = "pari";
+    console.log('Hai scelto pari');
+} else if(scelta === "dispari") {
+    scelta = "dispari";
+    console.log('Hai scelto dispari'); 
+} else {
+    console.log('non hai scelto');  
+}
+
+//L'utente scegli un numero da 1 a 5
+let numeroScelto = prompt("Scegli un numero da 1 a 5");
