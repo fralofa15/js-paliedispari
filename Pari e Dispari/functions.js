@@ -3,5 +3,10 @@ function numeroRandom() {
 }
 
 function sommaNumeri(valore1, valore2) {
-    return valore1 + valore2;
+    const valoreFinale = valore1 + valore2;
+    if(valoreFinale % 2 === 0) {
+        return "pari";
+    } else {
+        return "dispari";
+    }
 }
