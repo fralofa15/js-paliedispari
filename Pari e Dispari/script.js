@@ -21,3 +21,11 @@ if(scelta === "pari") {
 
 //L'utente scegli un numero da 1 a 5
 let numeroScelto = prompt("Scegli un numero da 1 a 5");
+
+console.log("il tuo numero è " + numeroScelto);
+
+//Generazione numero del computer
+let numeroComputer = numeroRandom();
+
+console.log("il numero del computer è " + numeroComputer);
+
